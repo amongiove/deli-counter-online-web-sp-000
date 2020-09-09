@@ -11,6 +11,7 @@ end
 def take_a_number(katz_deli, name)
   kaz_deli.each do |name|
     puts "name " + katz_deli.index(name) + 1
+  end
 end
 
 def now_serving(katz_deli)
@@ -21,3 +22,4 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+
