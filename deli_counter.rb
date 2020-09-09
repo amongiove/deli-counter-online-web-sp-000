@@ -21,7 +21,7 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number #{counter} in line."
   else
     katz_deli << "#{name}"
-    counter += 1
+    counter = katz_deli.size
     puts "Welcome, #{name}. You are number #{counter} in line."
 end
 
