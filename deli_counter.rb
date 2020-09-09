@@ -10,7 +10,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push("#{name}")
-  kaz_deli.each do |person|
+  katz_deli.each do |person|
     puts person + katz_deli.index(name) + 1
   end
 end
