@@ -23,6 +23,7 @@ def take_a_number(katz_deli, name)
     katz_deli << "#{name}"
     counter = katz_deli.size
     puts "Welcome, #{name}. You are number #{counter} in line."
+  end
 end
 
 def now_serving(katz_deli)
