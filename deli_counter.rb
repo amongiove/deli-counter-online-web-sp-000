@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     katz_deli.join(index += 1)
     puts katz_deli.join(index += 1)
-    puts "The line is currently: " 
+    puts "The line is currently: "
   end
 end
 
