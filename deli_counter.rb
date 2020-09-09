@@ -9,8 +9,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  kaz_deli.each do |name|
-    puts "name " + katz_deli.index(name) + 1
+  katz_deli.push("#{name}")
+  kaz_deli.each do |person|
+    puts person + katz_deli.index(name) + 1
   end
 end
 
