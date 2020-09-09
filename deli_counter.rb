@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     position = index + 1
-    names = katz_deli.join(position)
+    names = katz_deli.join
     puts "The line is currently: names"
   end
 end
