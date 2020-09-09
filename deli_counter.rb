@@ -17,8 +17,9 @@ end
 def take_a_number(katz_deli, name)
   line = []
   line << "#{name}"
-  counter +=1
+  counter = 1
   puts "Welcome #{name}. You are number #{counter} in line."
+  counter += 1
 end
 
 def now_serving(katz_deli)
